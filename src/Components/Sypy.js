@@ -24,7 +24,6 @@ class Sypy extends Component{
        
     }
     
-}
     
 
     render(){
