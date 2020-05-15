@@ -1,0 +1,10 @@
+.card{
+    width:80%;
+    margin:1em auto;
+    border: 1px solid black; 
+    padding-left:1em;
+}
+
+ul li{
+    list-style-type: none;
+}
