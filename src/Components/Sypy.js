@@ -14,7 +14,7 @@ class Sypy extends Component{
     };
 
    async componentDidMount(){
-       let ans  = await axios.get("http://ravigitte.pythonanywhere.com/solve/?exp=integrate(2*x%20+%20y,x)");
+       let ans  = await axios.get("https://ravigitte.pythonanywhere.com/solve/?exp=integrate(2*x%20+%20y,x)");
         ans =  JSON.parse(JSON.stringify(ans));
        this.setState(st=>
         {return{
@@ -23,7 +23,9 @@ class Sypy extends Component{
     //    console.log(this.state.data);
        
     }
+    componentDidUpdate(){
     
+    }
     
 
     render(){
